@@ -1,0 +1,54 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url('Project Image/bg_opacity.jpg') no-repeat;
+    background-size: cover;
+}
+.login-box{
+    width: 225px;
+    position: absolute;
+    top: 30%;
+    left: 44%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+}
+.login-box h1{
+    float: left; 
+    font-size: 40px;
+    border-bottom: 4px solid rgb(6, 246, 38);
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-bottom: 2px solid rgb(6, 246, 38);
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+    width: 80%;
+    /* float: left; */
+    /* margin: 0 10px; */
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid rgb(6, 246, 38);
+    margin: 8px 0;
+    padding: 5px 0;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    border: 2px solid hotpink;
+}
