@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princy's Fitness</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* CSS Reset */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/Gym2.jpg');
+            animation: 113s linear 0s normal none infinite running awan-animasi;
+            /* height: 3000px; */
+            /* width: 2000px; */
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .left{
+            display: inline-block;
+            /* width: 150px; */
+            /* border: 2px solid red; */
+            position: absolute;
+            top: 20px;
+            left: 47px;
+        }
+        .left img{
+            width: 88px;
+            text-align: center;
+            filter: invert(100%);
+        }
+        .left div {
+            text-align: center;
+            line-height: 20px;
+            font-size: 18px;
+            /* align-items: center; */
+        }
+        .mid{
+            display: block;
+            width: 47%;
+            margin: 30px auto;
+            /* border: 2px solid palegreen; */
+        }
+        .right{
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            display: inline-block;
+            /* border: 2px solid yellow; */
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 20px;
+            font-style: bold;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none; 
+            padding: 34px 23px;
+        }
+        .navbar li a:hover, .navbar li a:active{
+            text-decoration: underline;
+            color: gray;
+        }
+        .btn {
+            margin: 0px 9px;
+            background-color: gray;
+            color: black;
+            padding: 10px 10px;
+            border: 2px solid black;
+            border-radius: 7px;
+            margin: 2px 2px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .btn:hover{
+            background-color: rgb(94, 91, 91);
+        }
+        .container {
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 14px;
+        }
+        /* .container h2{
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        } */
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 400px;
+            /* padding: 1px; */
+            margin: 11px auto;
+            border: 3px solid black;
+            border-radius: 10px;
+            padding: 5px 5px;
+            font-size: 20px;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .container h2 {
+            text-align: center;
+        }
+        .container button {
+            display: block;
+            width: 94%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <!-- Left for Logo -->
+            <div class="left">
+                <img src="img/f2.png" alt="">
+                <div>Princy Fitness</div>
+            </div>
+            <!-- Mid for navbar -->
+            <div class="mid">
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a> </li>
+                        <li><a href="#">About Us</a> </li>
+                        <li><a href="#">Fitness Calculator</a> </li>
+                        <li><a href="#">Contact Us</a> </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Right for button -->
+            <div class="right">
+                <button class="btn"><strong>Call Us</strong></button>
+                <button class="btn"><strong>Email Us</strong></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Join the best GYM Gujarat Now</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
